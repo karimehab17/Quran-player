@@ -17,12 +17,6 @@ Audio is played from an SD card and controlled with five push buttons. The displ
 - **Bluetooth (BLE) remote control** from any phone, with live status notifications
 - Software debounce on all buttons, and protection against duplicate "finished" events from the DFPlayer
 
-## Prototype
-
-Breadboard prototype playing part 5 of 161 (side view below).
-
-![Side view](docs/images/side-view.jpg)
-
 ## Hardware
 
 | Component | Qty |
