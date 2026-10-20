@@ -330,6 +330,7 @@ volatile unsigned long bleRestartAt = 0;
 
 // BLE callbacks run in another task, so commands are queued here and
 // executed from loop() (the display and DFPlayer code is not thread-safe).
+
 const int BLE_QUEUE_SIZE = 4;
 const int BLE_CMD_LEN = 24;
 char bleQueue[BLE_QUEUE_SIZE][BLE_CMD_LEN];
