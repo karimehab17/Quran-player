@@ -17,6 +17,27 @@ Audio is played from an SD card and controlled with five push buttons. The displ
 - **Bluetooth (BLE) remote control** from any phone, with live status notifications
 - Software debounce on all buttons, and protection against duplicate "finished" events from the DFPlayer
 
+## Prototype
+
+The Quran Player circuit is currently implemented as a simulated prototype using ESP32 and Wokwi.
+
+The prototype includes:
+
+ESP32 microcontroller
+
+SSD1306 OLED display (I²C)
+
+microSD card module (SPI)
+
+Five push buttons for navigation, volume control, and pause/resume
+
+The simulation is used to test the circuit connections, display interface, button inputs, and microSD card initialization before physical implementation.
+
+ESP32-based Quran Player prototype simulated in Wokwi.
+
+![Quran Player](docs/images/prototype.jpg)
+
+
 ## Hardware
 
 | Component | Qty |
