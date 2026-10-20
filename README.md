@@ -112,6 +112,3 @@ quran-player/
 - **Phone can't see the device**: use a BLE-capable app (nRF Connect). Classic Bluetooth scanners won't list BLE devices.
 - **Wrong part count**: make sure there are no extra files inside the `MP3` folder.
 
-## License
-
-Add a license of your choice (MIT is a common default for hobby projects).
