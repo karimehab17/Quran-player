@@ -1,0 +1,10 @@
+# PlatformIO build output and downloaded libraries
+.pio/
+
+# VS Code (keep extensions.json only)
+.vscode/*
+!.vscode/extensions.json
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
